@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="310.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OrderPageController">
+   <children>
+      <ChoiceBox fx:id="orderBox" layoutX="14.0" layoutY="15.0" prefHeight="29.0" prefWidth="156.0" />
+      <Label layoutX="182.0" layoutY="15.0" text="Order Detail:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="orderDetails" layoutX="182.0" layoutY="44.0" text="Order Details Fill">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveDataButton" layoutX="170.0" layoutY="260.0" mnemonicParsing="false" onAction="#saveDataButtonClick" text="Save Data" textFill="#45a0e1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="custDetail" layoutX="182.0" layoutY="150.0" text="Customer Name" textFill="#143e17">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="custDataButton" layoutX="182.0" layoutY="186.0" mnemonicParsing="false" onAction="#custDataButtonClick" text="View Customer Data" textFill="#143e17">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="createOrderButton" layoutX="24.0" layoutY="260.0" mnemonicParsing="false" onAction="#createOrderButtonClick" text="Create Order" textFill="BLUE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="allThneeds" layoutX="372.0" layoutY="20.0" text="Thneed List:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="fillOrderButton" alignment="CENTER" layoutX="20.0" layoutY="103.0" mnemonicParsing="false" onAction="#fillOrderButtonClick" prefHeight="27.0" prefWidth="115.0" text="Fill Order" textFill="MAGENTA">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="dataSavedAlert" layoutX="290.0" layoutY="265.0" text="Data Saved!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

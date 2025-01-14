@@ -1,0 +1,32 @@
+(Rough)Roadmap:
+
+Monday, March 20th: 
+	-Determine roles & class assignments
+	-Fix any github problems
+	-Begin work
+	-GUI: Rudimentary GUI (No controller, visual only)
+
+Wednesday, March 22nd: Work on classes/gui/fileIO
+	-Classes: Finish class variables, and constructors
+	-GUI: "Finalize" GUI design (may have to change at somepoint)
+	-GUI: Plan on controller
+
+Friday, March 24th: Work on classes/gui/fileIO
+	-Classes: Finish getters/setters for classes
+	-GUI: Order display
+	-FileIO: Plan on functionality
+
+Monday, March 27th: Work on classes/gui/fileIO
+	-FileIO: File search/file creation
+	-GUI: Order selection & information display
+Wednesday, March 29th: Work on classes/gui/fileIO
+	-GUI: Customer display
+	-FileIO: File reading
+Friday, March 31st: Finalize classes/gui/fileIO
+	-FileIO: File writing
+	-GUI: Customer 
+Monday, April 3rd: Testing/Fine Tuning
+Wednesday, April 5th: Testing/Fine Tuning
+Friday, April 7th: Finish testing/Fine tuning/Final repo management
+
+

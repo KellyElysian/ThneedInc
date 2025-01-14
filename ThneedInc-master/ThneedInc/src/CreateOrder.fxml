@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateOrderController">
+   <children>
+      <ChoiceBox fx:id="customerBox" layoutX="22.0" layoutY="45.0" prefWidth="150.0" />
+      <Label layoutX="22.0" layoutY="25.0" text="Select Customer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="orderNumber" layoutX="189.0" layoutY="27.0" text="Order Num: " />
+      <Label layoutX="186.0" layoutY="53.0" text="Thneed Details Insert">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="110.0" text="Size (0, 1, or 2):" />
+      <Label layoutX="186.0" layoutY="141.0" text="Color:" />
+      <Label layoutX="186.0" layoutY="175.0" text="Quantity:" />
+      <TextField fx:id="size" layoutX="289.0" layoutY="109.0" promptText="0 = S, 1 = M, 2 = L" />
+      <TextField fx:id="color" layoutX="288.0" layoutY="142.0" promptText="Insert color here" />
+      <TextField fx:id="quantity" layoutX="288.0" layoutY="176.0" promptText="Insert quantity here" />
+      <Button fx:id="createThneedButton" layoutX="190.0" layoutY="222.0" mnemonicParsing="false" onAction="#createThneedButtonClick" text="Create Thneed" textFill="#9c752e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="confirmOrderButton" layoutX="323.0" layoutY="299.0" mnemonicParsing="false" onAction="#confirmOrderButtonClick" text="Confirm Order" textFill="#5a44ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="createCustomerButton" layoutX="22.0" layoutY="299.0" mnemonicParsing="false" onAction="#createCustomerButtonClick" text="Create Customer" textFill="#c12f45">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="thneedAlert" layoutX="190.0" layoutY="266.0" text="Thneed Added to Order!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

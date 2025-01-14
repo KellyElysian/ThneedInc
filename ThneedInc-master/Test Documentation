@@ -1,0 +1,29 @@
+Here will be our testing Documentation. This will show you how to test our application along with give you a guide on how to use it.
+
+
+Testing Steps:
+
+1. Begin running application.
+
+2. When screen opens you should see a list of all the Thneed Orders. Here you will be able to select specfic customers and orders
+
+3. Click on an order.
+
+4. you should be able to see the contents of the order and the customer affliated with the order
+
+5. Click on the name of the customer
+
+5. It should now show all the information for the orders under the customer name
+
+6. Notice if you update the customers order while this is open it does not update.
+
+7. Now try and add a new order, there should be a button called "add new order"
+
+8. within this you will be able to select either a exisiting customer or create a new one
+
+9. Click on create new customer and create a new customer
+
+10. Repeat steps 7-9 expect this time go ahead and use a existing customer.
+
+11. From here the app should be fully operational, continue creating or adding existing customers for your Thneed Purposes
+
