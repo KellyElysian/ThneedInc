@@ -17,3 +17,8 @@
 - Difficulties with naming schemes not aligning between the XML code and the Java code that controlled functionality.
 - Not being able to fully utilize Java's built-in GUI classes that limited the scope and depth of the project.
 
+## Installing/Running
+- The main software used in the project were the Eclipse IDE for Java code development and SceneBuilder application (linked and connected to Eclipse) to house the GUI element.
+- After both are downloaded, the project should run and data should be present.
+
+## Credits
