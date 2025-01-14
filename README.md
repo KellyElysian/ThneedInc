@@ -23,4 +23,4 @@
 
 ## Credits
 - Wen Hau Dong (Kelly Dong), Developer, [Github Personal](https://github.com/KellyElysian), [Github Student](https://github.iu.edu/keldong)
-- Jeff Hochgesang, Developer, [Github](https://github.iu.edu/jefhochg)
+- Jeff Hochgesang, Developer, [Github Student](https://github.iu.edu/jefhochg)
