@@ -10,3 +10,5 @@
 - XML was chosen because it was the primary way of building GUI elements via Screen Builder, which we chose to use due to it allowing us to visualize elements in a more clear and defined way on the screen. 
 
 ## Description - Challenges
+- Difficulties with naming schemes not aligning between the XML code and the Java code that controlled functionality.
+- Not being able to fully utilize Java's built-in GUI classes that limited the scope and depth of the project.
