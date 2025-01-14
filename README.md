@@ -1,8 +1,8 @@
 # Thneed Inc Business
 
 ## Description - Functionality
-- Allows Thneed Inc business employees to place orders for Thneeds and review those orders for date of arrival and contents of the delivery.
-- This was created to be a business solution to a (not real) company that requires a solution for allowing them to place orders of the items they sell. They also wanted to keep track of which of these orders have been completed and on what date and time.
+- Allows Thneed Inc business employees to place orders for customers that are for Thneeds and review those orders for date of arrival and contents of the delivery.
+- This was created to be a business solution to a (not real) company that requires a solution for allowing them to place orders for customers for the items they sell. They also wanted to keep track of which of these orders have been completed and on what date and time.
 
 ## Description - Technology
 - The whole project itself is built through the Java language and the GUI is built with XML via the ScreenBuilder application to place GUI elements on different scene.
@@ -12,3 +12,4 @@
 ## Description - Challenges
 - Difficulties with naming schemes not aligning between the XML code and the Java code that controlled functionality.
 - Not being able to fully utilize Java's built-in GUI classes that limited the scope and depth of the project.
+
